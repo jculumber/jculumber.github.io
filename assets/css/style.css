@@ -95,6 +95,7 @@ img[src="assets/images/profile_pic.jpg"] {
     float: left;
     margin-top: 20px;
     margin-right: 20px;
+    border: 4px #4aaaa5 dotted;
 }
 
 .gallery {
