@@ -1,0 +1,51 @@
+
+a, p {
+    color: #777;
+    line-height: 34px;
+    font-size: 18px;
+}
+a:hover {
+    text-decoration: none;
+    color: #777;
+}
+.navbar-brand, h3, .navbar-brand:hover {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 100;
+    position: relative;
+    bottom: 75px;
+}
+h2 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+footer {
+    color:white;
+    background-color: #777;
+}
+
+.navbar {
+    background-color: white;
+}
+
+section {
+    background-color: white;
+}
+
+body {
+    background: url(../images/concrete_seamless.png);
+}
+footer.border-top {
+    border-top: 5px solid #4aaaa5;
+}
+.btn {
+    background-color: #4aaaa5;
+    border: #4aaaa5;
+}
