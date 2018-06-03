@@ -10,14 +10,15 @@ var currentWordLetters;     //Letters in currentWord
 //List of possible words to be used for a game
 var gameWords = ["magickingdom", "epcot", "hollywoodstudios", "animalkingdom", "mickeymouse", "donaldduck", "fireworks"]; 
 
-//When page loads, set wins to 0 and remaining guesses to 10:
-    function pageLoad() {
-        document.getElementById("winsTotal").innerHTML = wins; 
-    };    
+//Begin
+window.onload = alert("Press 'New Game' button to begin.")
 
 //Start a new game
     function newGame() {
-        //Set Remaining Guesses = 20
+        //Display wins
+        document.getElementById("winsTotal").innerHTML = wins; 
+        
+        //Display Remaining Guesses
         document.getElementById("remainingGuesses").innerHTML = remainingGuesses;
     
         //Generate the current word
@@ -78,8 +79,3 @@ var gameWords = ["magickingdom", "epcot", "hollywoodstudios", "animalkingdom", "
         };
 
     };
-
-//Begin
-    window.onload = pageLoad();
-//Reset game
-    
