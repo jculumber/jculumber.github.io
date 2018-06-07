@@ -1,55 +1,58 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Basic Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="headerWrapper">
-            <div class="yourName">
-            <h1>Jenn Culumber</h1>
-            </div>
-        
-            <div class="navbar">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            </div>
-        </div>
-    </header>
-    
-    <section id="mainContent">
-        
-        <div class="mainHeader">
-            <h1>Contact</h1>
-        </div>
 
-        <form action="mailto:jennr2@aol.com" method="POST" enctype="text/plain" id="usrform">
-            Name <br>
-            <input type="text" name="name" placeholder="Your Name"><br>
-            Email <br>
-            <input type="text" name="email" placeholder="youremail@gmail.com"><br>
-            Message <br>
-            <textarea placeholder="Type your message here..."></textarea><br>
-            <input type="submit" name="submit">
-        </form>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Jenn Culumber</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form" action="mailto:jennifer@jenniferculumber.com" method="post" enctype="text/plain">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
     </section>
 
-    <footer>
-        <p id="footerText">&copy; 2018 Jennifer Culumber</p>
+  </div>
 
-    </footer>
-
+  <footer>
+    <div class="container">
+        &copy; 2018 Jennifer Culumber
+    </div>
+  </footer>
 </body>
+
 </html>

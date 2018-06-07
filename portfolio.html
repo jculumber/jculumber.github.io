@@ -1,67 +1,76 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Basic Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="main.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="headerWrapper">
-            <div class="yourName">
-            <h1>Jenn Culumber</h1>
-            </div>
-        
-            <div class="navbar">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            </div>
-        </div>
-    </header>
-    
-    <section id="mainContent">
-        
-        <div class="mainHeader">
-            <h1>Portfolio</h1>
-        </div>
 
-        <div class="gallery">
-            <a href="http://www.jenniferculumber.com" alt="SLP_Website" target="_blank"><img src="assets/images/SLP_image.jpg" alt="400x400"></a>
-            <div class="img-desc">My SLP Website</div>
-        </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Jenn Culumber</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        <div class="gallery">
-            <a href="https://github.com/jculumber" alt="Github_Profile" target="_blank"><img src="assets/images/Octocat/Octocat.png" alt="Github_Octocat" height: 400px></a>
-            <div class="img-desc">My GitHub Profile</div>
-        </div>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-        <div class="gallery">
-            <a href="https://jculumber.github.io/Word-Guess-Game/" alt="Disney-Hangman"><img src="assets/images/DisneyCastle.jpg" alt="Disney-Hangman"></a>
-            <div class="img-desc">Disney Hangman!</div>
-        </div>
-        
-        <div class="gallery">
-            <a href="#" alt="Coming_Soon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST-EKboJ1MJKxHZUMmau0uX03hAT2goDDcfbMp4tCsKy2zhO_N" alt="Coming Soon!"></a>
-            <div class="img-desc">Coming Soon!</div>
-        </div>
+      <div class="work">
+        <a href="http://www.jenniferculumber.com" alt="SLP_Website" target="_blank">
+          <img id="slp" src="assets/images/SLP_image.jpg" alt="SLP Website">
+        </a>
+
+        <h3>My SLP Website</h3>
+      </div>
+      <div class="work">
+        <a href="https://github.com/jculumber" alt="Github_Profile" target="_blank">
+          <img id="github" src="assets/images/Octocat/Octocat.png" alt="Github_Octocat">
+        </a>
+
+        <h3>My GitHub Profile</h3>
+      </div>
+      <div class="work">
+        <a href="https://jculumber.github.io/Word-Guess-Game/" alt="Disney-Hangman" target="_blank">
+          <img id="hangman" src="assets/images/DisneyCastle.jpg" alt="Disney-Hangman">
+        </a>
+
+        <h3>Disney Hangman</h3>
+      </div>
+      <div class="work">
+        <a href="https://jculumber.github.io/unit-4-game/" alt="Crystals Collector" target="_blank">
+          <img id="crystals" src="../../code/Week_4/unit-4-game/assets/images/crystal-purple.png" alt="Purple Crystal">
+        </a>
+
+        <h3>Crystals Collector</h3>
+      </div>
+      <div class="work">
+        <a href="#" alt="Coming Soon" target="_blank">
+          <img id="comingSoon" src="assets/images/ComingSoon.jpg" alt="Coming Soon">
+        </a>
+
+        <h3>Coming Soon!</h3>
+      </div>
 
     </section>
 
-    <footer>
-        <p id="footerText">&copy; 2018 Jennifer Culumber</p>
+  </div>
 
-    </footer>
-
+  <footer>
+    <div class="container">
+      &copy; 2018 Jennifer Culumber
+    </div>
+  </footer>
 </body>
+
 </html>
