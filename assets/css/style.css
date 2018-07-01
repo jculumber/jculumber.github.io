@@ -159,6 +159,10 @@ body {
     height: 80%;
   }
   
+  #trainScheduler {
+    height: 80%;
+  }
+  
   .work {
     position: relative;
     float: left;
