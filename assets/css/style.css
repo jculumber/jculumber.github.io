@@ -173,15 +173,14 @@ body {
     border: 1px solid #4aaaa5;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
-  
   .work img {
     width: 100%;
     border: 0 none;
-    opacity: 0.8;
   }
+  
+  .card:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
   
   .work h3 {
     position: absolute;
